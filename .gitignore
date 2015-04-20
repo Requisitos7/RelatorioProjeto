@@ -1,0 +1,17 @@
+commit_log.tex
+*.pdf
+*.aux
+*.bib
+*.out
+*.log
+
+
+//arquivos ~
+*.pdf~
+*.aux~
+*.bib~
+*.out~
+*.log~
+*.md~
+.gitignore~
+*~
