@@ -40,6 +40,8 @@ main: *.tex clean
 	clear
 	latex-git-log --author --width=5 --lang=en > ./commit_log.tex
 	pdflatex main.tex
+	pdflatex main.tex
+	pdflatex main.tex
 	
 optimize: main
 	clear

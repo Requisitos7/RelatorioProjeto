@@ -1,22 +1,37 @@
 \documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{longtable,hyperref}
-\newcommand{\longtableendfoot}{Please continue at the next page}
 
-\title{Requisitos}
-\author{bbraganca1991 }
-\date{April 2015}
 
+\title{Relatório de Projeto}
+\author{Bruno Braganca, Eduardo Moreira, Omar Faria, Ricardo Lupiano}
+\date{Abril, 2015}
+
+%Packages e Novos Comandos
+\input{resource/packages}
+\input{resource/commands}
+
+
+%Comeco do Documento
 \begin{document}
 
-\maketitle
+%Capa e Indices
+\input{resource/capa}
+\pagenumbering{gobble}
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+\newpage
+\listoffigures
+\clearpage
 
-\setcounter{page}{1}
-\pagenumbering{roman}
+\pagenumbering{arabic}
+\setcounter{page}{5}
 
-\input{commit_log}
-  \setcounter{secnumdepth}{5}
-  \setcounter{tocdepth}{5}
+%Conteudos
+\input{conteudo/escolhadametodologia}
 
+
+
+%Fim do Documento
 \end{document}
 
