@@ -2,26 +2,60 @@
 	Atributos de requisitos são propriedades dos mesmos e armazenam informacões adicionais. Para o desenvolvimento deste projeto, foram escolhidos os seguintes atributos:
 	\begin{itemize}
 		\item Prioridade
-		\item Valor
+		\item Status
 		\item Dificuldade
-		\item outro..?
 	\end{itemize}
 
 	\subsection{Prioridade}
-	O atributo \textbf{prioridade} indica a ordem em que as histórias de usuários deverão ser desenvolvidas. A prioridade da história de usuário pode ser definida em:
-	\begin{itemize}
-		\item Alta, Média, Baixa ou Indefinida.
-	\end{itemize}
+	O atributo \textbf{prioridade} indica a importância que as histórias de usuários têm para os \textit{stakeholders}. A prioridade da história de usuário pode ser definida em:
 
-	\subsection{Valor}
-	O atributo \textbf{valor} indica o valor agregado de cada história de usuário para os \textit{stakeholders}. O valor de uma história de usuário pode ser definido em:
-	\begin{itemize}
-		\item Alto, Médio, Baixo ou Indefinido.
-	\end{itemize}
+	\begin{table}[htbp]
+		\centering
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{Atributo} & \textbf{Descrição} \\ \hline
+			Alta & Resquisito que possui grande interesse para o cliente \\ \hline
+			Média & Resquisito que possui elevado interesse para o cliente \\ \hline
+			Baixa & Resquisito que possui pouco interesse para o cliente \\ \hline
+			Indefinida & Prioridade indefinida \\ \hline
+		\end{tabular}
+	\caption{Atributo de prioridade}
+	\label{Atributo de prioridade}
+	\end{table}
+
+
+	\subsection{Status}
+	O atributo \textbf{status} indica a fase ou progresso atual do requisito. O status de um requisito pode ser definido em:
+	\begin{table}[htbp]
+		\centering
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{Atributo} & \textbf{Descrição} \\ \hline
+			ToDo & Resquisito identificado porem não definido \\ \hline
+			In Progress & Resquisito difinido porem não completado \\ \hline
+			To Verify & Requisito implementado porêm não verificado ou aceito \\ \hline
+			Done & Requisitos completado \\ \hline
+		\end{tabular}
+	\caption{Atributo de status}
+	\label{Atributo de status}
+	\end{table}
+
+
 	\subsection{Dificuldade}
 	O atributo \textbf{dfilculdade} indica o nível de esforço necessário para o desenvolvimento da história de usuário. A dificuldade de uma história de usuário pode ser definido em:
-	\begin{itemize}
-		\item Alta, Média, Baixa ou Indefinida.
-	\end{itemize}
+
+	\begin{table}[htbp]
+		\centering
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{Atributo} & \textbf{Descrição} \\ \hline
+			Alta & Resquisito que possui grande dificuldade para ser implementado \\ \hline
+			Média & Resquisito que possui elevada dificuldade para ser implementado \\ \hline
+			Baixa & Resquisito que possui pouco dificuldade para ser implementado \\ \hline
+			Indefinida & Dificuldade indefinida \\ \hline
+		\end{tabular}
+	\caption{Atributo de dificuldade}
+	\label{Atributo de dificuldade}
+	\end{table}
 
 	
