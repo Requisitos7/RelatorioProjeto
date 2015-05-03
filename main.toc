@@ -6,10 +6,15 @@
 \contentsline {section}{\numberline {3}Processo de Engenharia de Requisitos}{7}{section.3}
 \contentsline {section}{\numberline {4}T\IeC {\'e}cnicas de Elicita\IeC {\c c}\IeC {\~a}o}{8}{section.4}
 \contentsline {section}{\numberline {5}Rastreabilidade}{8}{section.5}
-\contentsline {section}{\numberline {6}Atributos de Requisitos}{8}{section.6}
-\contentsline {section}{\numberline {7}Ferramentas de Ger\IeC {\^e}ncia de Requisitos}{8}{section.7}
-\contentsline {subsection}{\numberline {7.1}Ferramentas Analisadas}{8}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Ferramentas web com tempo m\IeC {\'a}ximo de uso}{8}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}Ferramentas web free limitadas}{9}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Ferramentas locais}{9}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Escolha da Ferramenta}{9}{subsection.7.5}
+\contentsline {subsection}{\numberline {5.1}Rastreabilidade Vertical}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Rastreabilidade Horizontal}{9}{subsection.5.2}
+\contentsline {section}{\numberline {6}Atributos de Requisitos}{9}{section.6}
+\contentsline {subsection}{\numberline {6.1}Prioridade}{10}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Valor}{10}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Dificuldade}{10}{subsection.6.3}
+\contentsline {section}{\numberline {7}Ferramentas de Ger\IeC {\^e}ncia de Requisitos}{10}{section.7}
+\contentsline {subsection}{\numberline {7.1}Ferramentas Analisadas}{10}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Ferramentas web com tempo m\IeC {\'a}ximo de uso}{10}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Ferramentas web free limitadas}{11}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Ferramentas locais}{11}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}Escolha da Ferramenta}{11}{subsection.7.5}
