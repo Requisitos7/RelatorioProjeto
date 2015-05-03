@@ -1,43 +1,45 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 
+%Packages e Novos Comandos
+\input{resource/packages}
+\input{resource/commands}
+\input{resource/template}
 
 \title{Relatório de Projeto}
 \author{Bruno Braganca, Eduardo Moreira, Omar Faria, Ricardo Lupiano}
 \date{Abril, 2015}
 
-%Packages e Novos Comandos
-\input{resource/packages}
-\input{resource/commands}
-
 
 %Comeco do Documento
+\pagestyle{fancy}
 \begin{document}
 
-%Capa e Indices
-\input{resource/capa}
-\pagenumbering{gobble}
-\newpage
-\tableofcontents
-\newpage
-\listoftables
-\newpage
-\listoffigures
-\clearpage
+	\onehalfspacing
+	%Capa e Indices
+	\input{resource/capa}
+	\pagenumbering{gobble}
+	\newpage
+	\tableofcontents
+	\newpage
+	\listoftables
+	\newpage
+	\listoffigures
+	\clearpage
 
-\pagenumbering{arabic}
-\setcounter{page}{5}
+	\pagenumbering{arabic}
+	\setcounter{page}{5}
 
-%Conteudos
-\input{conteudo/cronograma}
-\input{conteudo/escolhadametodologia}
-\input{conteudo/processoER}
-\input{conteudo/tecnicasElicitacao}
-\input{conteudo/rastreabilidade}
-\input{conteudo/atributosReq}
-\input{conteudo/ferramentasReq}
+	%Conteudos
+	\input{conteudo/cronograma}
+	\input{conteudo/escolhadametodologia}
+	\input{conteudo/processoER}
+	\input{conteudo/tecnicasElicitacao}
+	\input{conteudo/rastreabilidade}
+	\input{conteudo/atributosReq}
+	\input{conteudo/ferramentasReq}
 
 
 
-%Fim do Documento
+	%Fim do Documento
 \end{document}
 
