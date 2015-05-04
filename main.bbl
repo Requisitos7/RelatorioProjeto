@@ -5,6 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.2 }
 
+\bibitem[Sommerville et al. 2003]{sommerville2003engenharia}
+\abntrefinfo{Sommerville et al.}{SOMMERVILLE et al.}{2003}
+{SOMMERVILLE, I. et al. \emph{Engenharia de software}. [S.l.]: Addison Wesley,
+  2003.}
+
 \bibitem[Wthreex 2014]{rup}
 \abntrefinfo{Wthreex}{WTHREEX}{2014}
 {WTHREEX. \emph{Rational Unified Process}. 2014.
